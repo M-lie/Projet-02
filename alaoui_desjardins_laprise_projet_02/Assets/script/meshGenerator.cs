@@ -18,7 +18,7 @@ public class meshGenerator : MonoBehaviour
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
-
+        
         CreateShape();
         UpdateMesh();
     }
