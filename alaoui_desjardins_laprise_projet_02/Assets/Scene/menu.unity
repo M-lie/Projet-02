@@ -764,7 +764,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Commandes\n\nUtiliser le joystick de la manette de gauche pour vous d\xE9placer\n\nUtiliser "
+  m_text: "Commandes\n\nUtiliser le joystick de la manette de gauche pour vous d\xE9placer\n\nMaintenez
+    le bouton sur le c\xF4t\xE9 de la manette de droite pour ramasser des objets
+    et le rel\xE2cher pour s'en d\xE9partir\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2fa2b66a15a3a264688c0a8192aec2f5, type: 2}
   m_sharedMaterial: {fileID: 5315312541282934664, guid: 2fa2b66a15a3a264688c0a8192aec2f5,
@@ -1292,7 +1294,7 @@ GameObject:
   - component: {fileID: 1161527119}
   - component: {fileID: 1161527118}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: sol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1738,7 +1740,7 @@ GameObject:
   - component: {fileID: 1611589504}
   - component: {fileID: 1611589503}
   m_Layer: 5
-  m_Name: commande01
+  m_Name: commande
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1885,7 +1887,7 @@ GameObject:
   - component: {fileID: 1671339480}
   - component: {fileID: 1671339479}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: planche_menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
